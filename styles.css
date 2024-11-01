@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and Text */
+body {
+    font-family: Arial, sans-serif;
+    color: #f5f5f5;
+    background-color: #1a1a2e; /* Navy Background */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #16213e; /* Slightly darker navy for contrast */
+}
+
+header h1 {
+    color: #f2a365; /* Warm accent color */
+}
+
+nav a {
+    color: #f2a365;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-image: url('light-pattern.png'); /* Optional subtle pattern */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #f5f5f5;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #f2a365;
+    color: #1a1a2e;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #f5c07a;
+}
+
+section#categories {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category {
+    text-align: center;
+    padding: 15px;
+    border: 2px dotted #f2a365;
+    transition: transform 0.2s;
+}
+
+.category img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111328;
+}
+
+footer a {
+    color: #f2a365;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+footer p {
+    color: #f5f5f5;
+}
